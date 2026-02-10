@@ -29,4 +29,4 @@ The KMaps are similar to cylinders, so all rows/colombs have neighboring rows/co
 The names help describe the structure of the Boolean expressions, for example, SOP is an expression defined by a sum (OR) of products (AND). In comparison, POS is defined by a product (AND) of sums (OR). 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-XORs are only 1 when there is a mis match. By using XORs we ensure that both inputs are the same, either both 0s or both 1s. If the output is not a 0, it will display the error and finish early.
+XORs are only 1 when there is a mis match. By using XORs we ensure that both inputs are the same, either both 0s or both 1s. If the output is not a 0, it will display the error and finish early. If does not display a 1, that means all the signals match the program displays a message saying the test cases passed and can finish as expected.
